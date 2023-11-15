@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/994/994202.png">
+</head>
+<body>
+    <div class="elem container">
+        <div class="container-personal">
+            <div class="container_carta1">
+                <br>
+                <img src="images/Logo_Bikehouse_Verde_Vineta_eea50f69-f579-4834-9f5d-0b82c835c457_255x.webp" class="img-fluid mx-auto d-block" alt="Logo-BikeHouse">
+                <br>
+                <br>
+                <h1 class="title">Feedback</h1>
+                <p>Esta es una evaluación que se realiza para recopilar opiniones y comentarios de las personas sobre el trabajo, servicio o experiencia. Su objetivo principal es obtener información valiosa para mejorar y optimizar lo que se está evaluando. Se utiliza para una retroalimentacion.</p>
+                <button class="download btn btn-dark">Download PDF</button>
+                <form class="row g-3">
+                    <div class="col-4">
+                        <label for="nameId" class="form-label">Colaborador<label>
+                            <input type="text" class="form-control" id="nameId">
+                    </div>
+                    <select id="area_op" aria-label="Default select example">
+                        <option selected>Área</option>
+                        <option value="1">Mercadeo</option>
+                        <option value="2">Financiera</option>
+                        <option value="3">E-commerce</option>
+                        <option value="3">Contabilidad</option>
+                        <option value="3">Gestión Humana</option>
+                        <option value="3">Sistemas</option>
+                        <option value="3">Servicio al cliente y garantías</option>
+                        <option value="3">Inventarios</option>
+                        <option value="3">Category manager</option>
+                        <option value="3">Reparaciones locativas</option>
+                        <option value="3">Tesorería</option>
+                        <option value="3">Importaciones</option>
+                        <option value="3">Eventos</option>
+                        <option value="3">Experencias Bike House</option>
+                        <option value="3">Compras</option>
+                        <option value="3">Gerencias comerciales</option>
+                        <option value="3">Planificación de inventarios</option>
+                        <option value="3">Cartera</option>
+                        <option value="3">Bodega y despachos</option>
+                        <option value="3">Facturación</option>
+                        <option value="3">Zona Tolima grande</option>
+                        <option value="3">Zona Antioquia</option>
+                        <option value="3">Zona costa</option>
+                        <option value="3">Zona sur y viejo caldas</option>
+                      </select>
+    
+                    <div class="col-4">
+                        <label for="nameId" class="form-label">Fecha<label>
+                            <input type="date" class="form-control" id="nameId">
+                    </div>
+    
+                    <div class="col-4">
+                        <label for="nameId" class="form-label">Cargo<label>
+                            <input type="text" class="form-control" id="nameId">
+                    </div>
+    
+                    <div class="col-4">
+                        <label for="nameId" class="form-label">Líder<label>
+                            <input type="text" class="form-control" id="nameId">
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="terms" required>
+                            <label for="terms" class="form-check-label"></label>
+                        </div>
+                    </div>
+                    
+                    <!--<h1 class="title">Competencias organizacionales y actitudinales</h1>-->
+                    <div class="alert alert-info" role="alert">
+                        La evaluación consta de los siguientes items:
+                      </div>
+                    <div class="w-75 p-3">
+                        <label for="nameId" class="form-label"><span>1. </span>Trabajo en equipo<label>
+                            <p class="text">Apoya y participa con agrado en las actividades de la compañia y el equipo de trabajo, generando un ambiente positivo y contribuyendo al logro de una meta común.</p>
+                           
+                            <div>
+                                <input type="number" id="numero1" placeholder="De 1 al 15">
+                            </div>    
+
+                            <div id="contenedor">
+                                <h6>Continuar haciendo</h6>
+                                <input id="texto" contenteditable="true"></input>
+                            </div>
+                            <div id="contenedor">
+                                <h6>Comenzar a hacer</h6>
+                                <input id="texto" contenteditable="true"></input>
+                            </div>
+                            <div id="contenedor">
+                                <h6>Dejar de hacer</h6>
+                                <input id="texto" contenteditable="true"></input>
+                            </div>
+                            <div id="contenedor">
+                                <h6>Observaciones</h6>
+                                <input id="texto" contenteditable="true"></input>
+                            </div> 
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>  
+                            <br>
+                            <br> 
+                            <br>
+                            <br> 
+                            <br>
+                            
+
+                    </div>
+                    <div class="w-75 p-3">
+                        <label for="nameId" class="form-label"><span>2. </span>Innovación y actitud<label>
+                            <p class="text">Conservar una actitud positiva frente a los cambios en su rol y en la compañía, propone ideas y mejoras que generen beneficios para su trabajo y para la empresa.</p>
+                            <div id="contenedor">
+
+                                <div>
+                                    <input type="number" id="numero2" placeholder="De 1 al 15">
+                                </div>    
+
+                                <h6>Continuar haciendo</h6>
+                                <input id="texto" contenteditable="true"></input>
+                            </div>
+                            <div id="contenedor">
+                                <h6>Comenzar a hacer</h6>
+                                <input id="texto" contenteditable="true"></input>
+                            </div>
+                            <div id="contenedor">
+                                <h6>Dejar de hacer</h6>
+                                <input id="texto" contenteditable="true"></input>
+                            </div>
+                            <div id="contenedor">
+                                <h6>Observaciones</h6>
+                                <input id="texto" contenteditable="true"></input>
+                            </div>    
+                    </div>
+                    
+                    <div class="w-75 p-3">
+                        <label for="nameId" class="form-label"><span>3. </span>Orientacion al logro<label>
+                            <p class="text">Se compromete con los objetivos y prioridades de la compañía, asumiendo las consecuencias de sus actos ante el incumplimiento de estos; hacer que las cosas pasen.</p>
+                       
+                            <div>
+                                <input type="number" id="numero3" placeholder="De 1 al 20">
+                            </div>    
+
+                        <div id="contenedor">
+                            <h6>Continuar haciendo</h6>
+                            <input id="texto" contenteditable="true"></input>
+                        </div>
+                        <div id="contenedor">
+                            <h6>Comenzar a hacer</h6>
+                            <input id="texto" contenteditable="true"></input>
+                        </div>
+                        <div id="contenedor">
+                            <h6>Dejar de hacer</h6>
+                            <input id="texto" contenteditable="true"></input>
+                        </div>
+                        <div id="contenedor">
+                            <h6>Observaciones</h6>
+                            <input id="texto" contenteditable="true"></input>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>  
+                        <br>
+                        <br> 
+                        <br>
+                        <br> 
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                </div>
+                <!--<h1 class="title">Conocimientos y habilidades</h1>-->
+                <div class="w-75 p-3">
+                    <label for="nameId" class="form-label"><span>4. </span>Procedimientos de la empresa<label>
+                        <p class="text">Conoce y aplica los procedimientos de la empresa, el resultado de su desempeño contribuye al cumplimiento de las metas de la compañía.</p>
+                        
+                        <div>
+                            <input type="number" id="numero4" placeholder="De 1 al 20">
+                        </div>    
+
+                        <div id="contenedor">
+                            <h6>Continuar haciendo</h6>
+                            <input id="texto" contenteditable="true"></input>
+                        </div> 
+                        <div id="contenedor">
+                            <h6>Comenzar a hacer</h6>
+                            <input id="texto" contenteditable="true"></input>
+                        </div>
+                        <br> 
+                        <div id="contenedor">
+                            <h6>Dejar de hacer</h6>
+                            <input id="texto" contenteditable="true"></input>
+                        </div>
+                        <div id="contenedor">
+                            <h6>Observaciones</h6>
+                            <input id="texto" contenteditable="true"></input>
+                        </div>
+                    </div>
+                    <div class="w-75 p-3">
+                        <label for="nameId" class="form-label"><span>5. </span>Responsabilidad laboral<label>
+                            <p class="text">Cumple las labores asignadas, realiza el trabajo con agilidad y precisión, controla la adecuada utilización de los implementos de la compañía y se muestra interesado en su labor.</p>
+                            
+                            <div>
+                                <input type="number" id="numero5" placeholder="De 1 al 15">
+                            </div>    
+
+                            <div id="contenedor">
+                                <h6>Continuar haciendo</h6>
+                                <input id="texto" contenteditable="true"></input>
+                            </div>
+                            <div id="contenedor">
+                                <h6>Comenzar a hacer</h6>
+                                <input id="texto" contenteditable="true"></input>
+                        </div>
+                        <div id="contenedor">
+                            <h6>Dejar de hacer</h6>
+                            <input id="texto" contenteditable="true"></input>
+                        </div>
+                        <div id="contenedor">
+                            <h6>Observaciones</h6>
+                            <input id="texto" contenteditable="true"></input>
+                        </div> 
+                        <br>
+                        <br> 
+                        <br>
+                        <br>
+                        <br> 
+                        <br>
+                        <br>
+                        <br> 
+                        <br> 
+                        <br>
+                        <br>
+                        <br> 
+                        <br> 
+                        <br> 
+                        <br> 
+                                           
+                    </div>
+                    <div class="w-75 p-3">
+                        <label for="nameId" class="form-label"><span>6. </span>Orientacion al servicio <label>
+                            <p class="text">Atiende y responde las solicitudes del cliente interno y externo con calidad,oportunidad y amabilidad</p>
+                       
+                            <div>
+                                <input type="number" id="numero6" placeholder="De 1 al 15">
+                            </div>    
+
+                        <div id="contenedor">
+                            <h6>Continuar haciendo</h6>
+                            <input id="texto" contenteditable="true"></input>
+                        </div>
+                        <div id="contenedor">
+                            <h6>Comenzar a hacer</h6>
+                            <input id="texto" contenteditable="true"></input>
+                        </div>
+                        <div id="contenedor">
+                            <h6>Dejar de hacer</h6>
+                            <input id="texto" contenteditable="true"></input>
+                        </div>
+                        <div id="contenedor">
+                            <h6>Observaciones</h6>
+                            <input id="texto" contenteditable="true"></input>
+                        </div>
+                </div>
+                <div>
+                    <button onclick="sumarNumeros()" type="button" class="btn btn-dark">Sumar</button>
+                </div>
+                <p><strong>Resultados de los porcentajes:</strong><span id="total"> 0</span></p>
+
+                    <h1 class="title w-120 p-1">Líder</h1>
+                    <p>Este espacio es para evaluar a tu superior es importante considerar tanto sus habilidades de liderazgo como su impacto en el equipo y la organización. Observa su capacidad para comunicar claramente las metas, brindar dirección y apoyar el crecimiento profesional de los empleados. Valora su habilidad para motivar, resolver conflictos y fomentar un ambiente de trabajo positivo.</p>
+                    <div id="contenedor" class="w-15 p-1">
+                        <h6>Puntos fuertes</h6>
+                        <div id="texto" contenteditable="true"></div>
+                    </div>   
+                    <div id="contenedor" class="w-75 p-1">
+                        <h6>Puntos a desarrollar</h6>
+                        <div id="texto" contenteditable="true"></div>
+                    </div>  
+                    <h1 class="title w-120 p-1">Trabajador</h1>
+                    <div id="contenedor" class="w-75 p-1">
+                        <h7>Puntos fuertes</h7>
+                        <div id="texto" contenteditable="true"></div>
+                    </div>   
+                    <div id="contenedor" class="w-75 p-1">
+                        <h7>Puntos a desarrollar</h7>
+                        <div id="texto" contenteditable="true"></div>
+                    </div>    
+                    
+                    <div id="contenedor" class="w-75 p-1">
+                        <h7>Comentarios sobre el Feedback</h7>
+                        <div id="texto" contenteditable="true"></div>
+                    </div>
+                    <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+                <div class="col-4">
+                    <label for="nameId" class="form-label">Proxima reunión<label>
+                    <input type="date" class="form-control" id="nameId">
+                </div>
+                <div class="col-4">
+                    <label for="nameId" class="form-label">Firma trabajador<label>
+                </div>
+                <div class="col-3">
+                    <label for="nameId" class="form-label">Firma líder<label>
+                </div>
+                
+            </div>
+            <br>
+            <br>
+            <br>
+            <img src="images/Puntaje.jpeg" class="img-fluid d-block" alt="Logo-BikeHouse">
+            <br>
+            <p class="creditos">© 2023 - Create By DavidB</p>
+            </form>
+
+        </div>
+    <script>
+        let div = document.querySelector(".elem");
+        let btn = document.querySelector(".download")
+        btn.addEventListener('click', () => {
+            html2pdf().from(div).save()
+        })
+    </script>
+
+    <script>
+        const toastTrigger = document.getElementById('liveToastBtn')
+        const toastLiveExample = document.getElementById('liveToast')
+
+        if (toastTrigger) {
+          const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+          toastTrigger.addEventListener('click', () => {
+            toastBootstrap.show()
+          })
+        }
+
+        var saludo;
+        saludo = "Hola, Bienvenido a mi Feedback - David Baron🤔";
+        console.log(saludo);
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/sweetAlert.js"></script>
+    <script>
+        // Función para sumar los números ingresados
+        function sumarNumeros() {
+            var numero1 = parseFloat(document.getElementById("numero1").value) || 0;
+            var numero2 = parseFloat(document.getElementById("numero2").value) || 0;
+            var numero3 = parseFloat(document.getElementById("numero3").value) || 0;
+            var numero4 = parseFloat(document.getElementById("numero4").value) || 0;
+            var numero5 = parseFloat(document.getElementById("numero5").value) || 0;
+            var numero6 = parseFloat(document.getElementById("numero6").value) || 0;
+            
+            // Suma los valores
+            var sumaTotal = numero1 + numero2 + numero3 + numero4 + numero5 + numero6;
+            
+            // Actualiza el total en el elemento "total"
+            document.getElementById("total").textContent = sumaTotal;
+        }
+    </script>
+</body>
+</html>
