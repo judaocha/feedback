@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+.container-personal{
+    width: 750px;
+}
+.ld {
+  width: 10px;
+}
+p {
+    font-weight: 400;
+    font-size: 16px;
+}
+#contenedor{
+    display: inline-block;
+    min-width: 100px;
+    cursor: pointer;
+  }
+  h2 {
+    font-size: 1px;
+  }
+  h6 {
+    font-size: 10px;
+  }
+  
+  #texto{
+    background-color: rgba(128, 128, 128, 0.171);
+    width: 740px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+.form-label {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-color: #BDBDBD;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.topl{
+  margin-top: 400px;
+  font-weight: bold;
+  border: 1px solid red;
+}
+  #cpo{
+    border-radius: 6px;
+    background-color: #5c5c5cae;
+    color: rgb(25, 25, 25);
+  }
+  #area_op {
+    width: 200px;
+    height: 36px;
+    border-radius: 6px;
+  }
+  span {
+    font-size: 18px;
+  }
+/*Tamaño del PDF - Tamaño de la carta*/
+.container_carta1 {
+  width: 100%;
+}
+
+/*----CREDITOS-----*/
+.creditos {
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(43, 42, 42, 0.807);
+  text-align: right;
+}
